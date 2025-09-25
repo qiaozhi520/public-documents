@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated:** [Insert Date]
+**Last Updated:** 2025/09/25
 
 This Privacy Policy describes how **Speed Math Tool** ("the App"), developed by **王健**, handles user information.
 
