@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - Speed Math Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Roboto, sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-button:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            color: white;
+            text-decoration: none;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f1f2f6;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header .app-name {
+            font-size: 1.3rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .header .last-updated {
+            font-size: 1rem;
+            color: #95a5a6;
+            background: #f8f9ff;
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: 1px solid #e1e8ff;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin: 40px 0 20px 0;
+            padding: 15px 0 15px 20px;
+            border-left: 5px solid #667eea;
+            background: linear-gradient(90deg, rgba(102, 126, 234, 0.05) 0%, transparent 100%);
+            border-radius: 0 10px 10px 0;
+            position: relative;
+        }
+
+        .content h2::before {
+            content: '📋';
+            position: absolute;
+            left: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            padding: 5px;
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content p {
+            margin-bottom: 18px;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+
+        .content ul {
+            margin: 20px 0 20px 30px;
+        }
+
+        .content li {
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+            position: relative;
+        }
+
+        .content li::marker {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .content strong {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        .content a {
+            color: #667eea;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .content a:hover {
+            border-bottom-color: #667eea;
+            color: #5a6fd8;
+        }
+
+        .divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent 0%, #667eea 50%, transparent 100%);
+            margin: 40px 0;
+            border-radius: 1px;
+        }
+
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: white !important;
+            border: none !important;
+            background: none !important;
+            padding: 0 !important;
+            margin-bottom: 20px !important;
+        }
+
+        .contact-section h2::before {
+            display: none;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 25px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .highlight-box {
+            background: #f8f9ff;
+            border: 2px solid #e1e8ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+            position: relative;
+        }
+
+        .highlight-box::before {
+            content: '💡';
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 25px;
+                margin: 10px;
+            }
+
+            .back-button {
+                position: static;
+                margin-bottom: 20px;
+                align-self: flex-start;
+            }
+
+            .header h1 {
+                font-size: 2.2rem;
+            }
+
+            .content h2 {
+                font-size: 1.5rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container fade-in">
+        <a href="./index.html" class="back-button">
+            ← 返回语言选择
+        </a>
+
+        <div class="header">
+            <h1>隐私政策</h1>
+            <div class="app-name">Speed Math Tool</div>
+            <div class="last-updated">最后更新时间：2025年9月25日</div>
+        </div>
+
+        <div class="content">
+            <div class="highlight-box">
+                <p>本隐私政策描述了由<strong>王健</strong>开发的<strong>Speed Math Tool</strong>（"本应用"）如何处理用户信息。</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <h2>1. 信息收集</h2>
+            <p>本应用本身<strong>不会主动收集、存储或分享用户的任何个人信息</strong>。</p>
+
+            <p>但是，本应用集成了<strong>Google Ads (AdMob)</strong>来显示广告。在广告投放过程中，Google及其合作伙伴可能会自动收集某些数据，包括但不限于：</p>
+
+            <ul>
+                <li>设备信息（如设备型号、操作系统版本、唯一标识符）</li>
+                <li>广告相关数据（如展示次数、互动、性能等）</li>
+                <li>大致位置（用于更相关的广告定向）</li>
+            </ul>
+
+            <p>有关Google如何收集和使用数据的详细信息，请参阅<a href="https://policies.google.com/privacy" target="_blank">Google隐私政策</a>。
+            </p>
+
+            <div class="divider"></div>
+
+            <h2>2. 信息使用</h2>
+            <p>通过Google Ads收集的信息可能用于以下目的：</p>
+
+            <ul>
+                <li>投放和优化广告</li>
+                <li>提供更相关的广告体验</li>
+                <li>测量和分析广告效果</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <h2>3. 信息共享</h2>
+            <p>本应用不会向第三方出售或分享个人信息。</p>
+            <p>广告相关数据仅由Google及其授权合作伙伴根据其隐私政策进行处理。</p>
+
+            <div class="divider"></div>
+
+            <h2>4. 数据安全</h2>
+            <p>本应用本身不存储个人数据。</p>
+            <p>Google实施行业标准做法来保护其为广告目的处理的数据的安全性和完整性。</p>
+
+            <div class="divider"></div>
+
+            <h2>5. 儿童隐私</h2>
+            <div class="highlight-box">
+                <p>本应用面向一般受众，<strong>不针对13岁以下的儿童</strong>（或您所在地区适用的同意年龄以下儿童）。</p>
+                <p>如果您是家长或监护人，并认为您的孩子通过本应用提供了个人信息，请联系我们，以便我们采取适当行动。</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <h2>6. 您的权利</h2>
+            <p>作为用户，您可以：</p>
+
+            <ul>
+                <li>通过查看<a href="https://policies.google.com/privacy" target="_blank">Google隐私政策</a>了解更多Google如何处理您的信息
+                </li>
+                <li>通过您的设备或Google帐户调整广告个性化设置</li>
+            </ul>
+        </div>
+
+        <div class="contact-section">
+            <h2>📞 联系我们</h2>
+            <p>如果您对本隐私政策有任何疑问或关注，请通过以下方式联系我们：</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>📧 邮箱</strong><br>
+                    qiaozhi943@gmail.com
+                </div>
+                <div class="contact-item">
+                    <strong>👨‍💻 开发者</strong><br>
+                    王健
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add fade-in animation on scroll for sections
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease-out';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('h2, .highlight-box, .contact-section').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+
+</html>
