@@ -179,57 +179,57 @@
         </div>
 
         <div class="languages-grid">
-            <a href="./privacy-policy-styled.html" class="language-card">
+            <a href="./privacy-policy-zh-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇨🇳</span>中文 (简体)</div>
                 <div class="language-native">Chinese Simplified</div>
             </a>
 
-            <a href="./privacy-policy-en.md" class="language-card">
+            <a href="./privacy-policy-en-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇺🇸</span>English</div>
                 <div class="language-native">English</div>
             </a>
 
-            <a href="./privacy-policy-fr.md" class="language-card">
+            <a href="./privacy-policy-fr-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇫🇷</span>Français</div>
                 <div class="language-native">French</div>
             </a>
 
-            <a href="./privacy-policy-de.md" class="language-card">
+            <a href="./privacy-policy-de-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇩🇪</span>Deutsch</div>
                 <div class="language-native">German</div>
             </a>
 
-            <a href="./privacy-policy-es.md" class="language-card">
+            <a href="./privacy-policy-es-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇪🇸</span>Español</div>
                 <div class="language-native">Spanish</div>
             </a>
 
-            <a href="./privacy-policy-ja.md" class="language-card">
+            <a href="./privacy-policy-ja-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇯🇵</span>日本語</div>
                 <div class="language-native">Japanese</div>
             </a>
 
-            <a href="./privacy-policy-ko.md" class="language-card">
+            <a href="./privacy-policy-ko-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇰🇷</span>한국어</div>
                 <div class="language-native">Korean</div>
             </a>
 
-            <a href="./privacy-policy-ru.md" class="language-card">
+            <a href="./privacy-policy-ru-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇷🇺</span>Русский</div>
                 <div class="language-native">Russian</div>
             </a>
 
-            <a href="./privacy-policy-zh-hk.md" class="language-card">
+            <a href="./privacy-policy-zh-hk-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇭🇰</span>繁體中文 (香港)</div>
                 <div class="language-native">Traditional Chinese (Hong Kong)</div>
             </a>
 
-            <a href="./privacy-policy-zh-tw.md" class="language-card">
+            <a href="./privacy-policy-zh-tw-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇹🇼</span>繁體中文 (台灣)</div>
                 <div class="language-native">Traditional Chinese (Taiwan)</div>
             </a>
 
-            <a href="./privacy-policy-pt.md" class="language-card">
+            <a href="./privacy-policy-pt-styled.html" class="language-card">
                 <div class="language-name"><span class="flag">🇵🇹</span>Português</div>
                 <div class="language-native">Portuguese</div>
             </a>
@@ -260,49 +260,7 @@
             });
         });
 
-        // Add language detection and auto-highlight
-        const userLang = navigator.language || navigator.userLanguage;
-        const langMap = {
-            'zh-CN': 'privacy-policy.md',
-            'zh': 'privacy-policy.md',
-            'en': 'privacy-policy-en.md',
-            'en-US': 'privacy-policy-en.md',
-            'fr': 'privacy-policy-fr.md',
-            'de': 'privacy-policy-de.md',
-            'es': 'privacy-policy-es.md',
-            'ja': 'privacy-policy-ja.md',
-            'ko': 'privacy-policy-ko.md',
-            'ru': 'privacy-policy-ru.md',
-            'zh-HK': 'privacy-policy-zh-hk.md',
-            'zh-TW': 'privacy-policy-zh-tw.md',
-            'pt': 'privacy-policy-pt.md'
-        };
 
-        const recommendedFile = langMap[userLang] || langMap[userLang.split('-')[0]];
-        if (recommendedFile) {
-            const recommendedCard = document.querySelector(`a[href="./${recommendedFile}"]`);
-            if (recommendedCard) {
-                recommendedCard.style.border = '3px solid #667eea';
-                recommendedCard.style.background = '#e8f0ff';
-
-                // Add a "recommended" badge
-                const badge = document.createElement('div');
-                badge.textContent = 'Recommended';
-                badge.style.cssText = `
-                    position: absolute;
-                    top: -10px;
-                    right: 10px;
-                    background: #667eea;
-                    color: white;
-                    padding: 5px 10px;
-                    border-radius: 15px;
-                    font-size: 0.8rem;
-                    font-weight: bold;
-                `;
-                recommendedCard.style.position = 'relative';
-                recommendedCard.appendChild(badge);
-            }
-        }
     </script>
 </body>
 
