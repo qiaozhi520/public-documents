@@ -69,7 +69,7 @@
             </svg>
           </div>
           <h3 class="contact-label">Email</h3>
-          <a class="email-link" :href="`mailto:${$t('index.contactEmail')}`">{{ $t('index.contactEmail') }}</a>
+          <a class="email-link" href="mailto:qiaozhi943@gmail.com">qiaozhi943@gmail.com</a>
           <p class="contact-hint">{{ $t('index.contactHint') }}</p>
         </div>
       </div>
