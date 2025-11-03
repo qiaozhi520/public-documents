@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos"
+  },
+  "home": {
+    "title": "Accueil",
+    "intro": "Bienvenue sur le site officiel (Vue + TS + vue-router)."
+  },
+  "about": {
+    "title": "À propos",
+    "content": "Ceci est une page À propos minimale."
+  },
+  "index": {
+    "title": "Tech4Life-EZ (TLE)",
+    "missionTitle": "Mission",
+    "mission": "Votre assistant de vie quotidienne, pour simplifier les choses.",
+    "missionPoints": {
+      "simple": {
+        "title": "Simple",
+        "desc": "Interface utilisateur intuitive avec une courbe d'apprentissage minimale. Design épuré qui se concentre sur les fonctionnalités essentielles sans complexité inutile."
+      },
+      "convenient": {
+        "title": "Pratique",
+        "desc": "Rapide et facile à utiliser avec un minimum d'étapes. Accomplissez vos tâches plus rapidement grâce à des flux de travail rationalisés et des résultats instantanés."
+      },
+      "practical": {
+        "title": "Pragmatique",
+        "desc": "Conçu pour des scénarios réels et des cas d'usage quotidiens. Chaque fonctionnalité est conçue pour résoudre des problèmes réels auxquels vous êtes confrontés."
+      },
+      "secure": {
+        "title": "Sécurisé",
+        "desc": "Toutes les données sont stockées localement sur votre appareil. Nous ne téléchargeons ni ne collectons vos informations personnelles, garantissant une confidentialité totale."
+      },
+      "free": {
+        "title": "Gratuit",
+        "desc": "Pas d'abonnements, pas de frais cachés, pas de niveaux premium. Toutes les fonctionnalités sont disponibles pour tous sans frais."
+      },
+      "family": {
+        "title": "Famille",
+        "desc": "Conçu pour tous les membres de votre foyer. Contenu sûr et adapté à l'âge en qui les familles peuvent avoir confiance et profiter ensemble."
+      }
+    },
+    "productTitle": "Produit",
+    "productName": "speed math toolkit",
+    "productDesc": "Une boîte à outils pour pratiquer et améliorer la vitesse de calcul mental.",
+    "contactTitle": "Contact",
+    "contactEmail": "qiaozhi943@gmail.com",
+    "contactHint": "Nous serions ravis d'avoir de vos nouvelles ! N'hésitez pas à nous contacter pour toute question ou commentaire."
+  }
+}

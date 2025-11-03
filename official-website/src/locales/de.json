@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns"
+  },
+  "home": {
+    "title": "Startseite",
+    "intro": "Willkommen auf der offiziellen Website (Vue + TS + vue-router)."
+  },
+  "about": {
+    "title": "Über uns",
+    "content": "Dies ist eine minimale Über uns-Seite."
+  },
+  "index": {
+    "title": "Tech4Life-EZ (TLE)",
+    "missionTitle": "Mission",
+    "mission": "Ihr alltäglicher Lebensassistent, der die Dinge einfacher macht.",
+    "missionPoints": {
+      "simple": {
+        "title": "Einfach",
+        "desc": "Intuitive Benutzeroberfläche mit minimaler Lernkurve. Klares Design, das sich auf Kernfunktionen konzentriert ohne unnötige Komplexität."
+      },
+      "convenient": {
+        "title": "Bequem",
+        "desc": "Schnell und einfach zu bedienen mit minimalen Schritten. Erledigen Sie Aufgaben schneller mit optimierten Workflows und sofortigen Ergebnissen."
+      },
+      "practical": {
+        "title": "Praktisch",
+        "desc": "Für reale Szenarien und tägliche Anwendungsfälle entwickelt. Jede Funktion ist darauf ausgelegt, tatsächliche Probleme zu lösen, mit denen Sie konfrontiert sind."
+      },
+      "secure": {
+        "title": "Sicher",
+        "desc": "Alle Daten werden lokal auf Ihrem Gerät gespeichert. Wir laden niemals Ihre persönlichen Informationen hoch oder sammeln sie, um vollständige Privatsphäre zu gewährleisten."
+      },
+      "free": {
+        "title": "Kostenlos",
+        "desc": "Keine Abonnements, keine versteckten Gebühren, keine Premium-Stufen. Alle Funktionen sind für jeden absolut kostenlos verfügbar."
+      },
+      "family": {
+        "title": "Familie",
+        "desc": "Für alle in Ihrem Haushalt konzipiert. Sichere, altersgerechte Inhalte, denen Familien vertrauen und die sie gemeinsam genießen können."
+      }
+    },
+    "productTitle": "Produkt",
+    "productName": "speed math toolkit",
+    "productDesc": "Ein Toolkit zum Üben und Verbessern der Kopfrechengeschwindigkeit.",
+    "contactTitle": "Kontakt",
+    "contactEmail": "qiaozhi943@gmail.com",
+    "contactHint": "Wir würden uns freuen, von Ihnen zu hören! Kontaktieren Sie uns gerne bei Fragen oder Feedback."
+  }
+}

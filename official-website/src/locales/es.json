@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de"
+  },
+  "home": {
+    "title": "Inicio",
+    "intro": "Bienvenido al sitio web oficial (Vue + TS + vue-router)."
+  },
+  "about": {
+    "title": "Acerca de",
+    "content": "Esta es una página Acerca de mínima."
+  },
+  "index": {
+    "title": "Tech4Life-EZ (TLE)",
+    "missionTitle": "Misión",
+    "mission": "Tu asistente de vida diaria, haciendo las cosas más fáciles.",
+    "missionPoints": {
+      "simple": {
+        "title": "Simple",
+        "desc": "Interfaz de usuario intuitiva con una curva de aprendizaje mínima. Diseño limpio que se enfoca en la funcionalidad principal sin complejidad innecesaria."
+      },
+      "convenient": {
+        "title": "Conveniente",
+        "desc": "Rápido y fácil de usar con pasos mínimos. Realiza tareas más rápido con flujos de trabajo optimizados y resultados instantáneos."
+      },
+      "practical": {
+        "title": "Práctico",
+        "desc": "Diseñado para escenarios del mundo real y casos de uso diario. Cada función está diseñada para resolver problemas reales que enfrentas."
+      },
+      "secure": {
+        "title": "Seguro",
+        "desc": "Todos los datos se almacenan localmente en tu dispositivo. Nunca subimos ni recopilamos tu información personal, garantizando privacidad completa."
+      },
+      "free": {
+        "title": "Gratis",
+        "desc": "Sin suscripciones, sin tarifas ocultas, sin niveles premium. Todas las funciones están disponibles para todos sin costo alguno."
+      },
+      "family": {
+        "title": "Familia",
+        "desc": "Diseñado para todos en tu hogar. Contenido seguro y apropiado para la edad en el que las familias pueden confiar y disfrutar juntas."
+      }
+    },
+    "productTitle": "Producto",
+    "productName": "speed math toolkit",
+    "productDesc": "Un kit de herramientas para practicar y mejorar la velocidad del cálculo mental.",
+    "contactTitle": "Contacto",
+    "contactEmail": "qiaozhi943@gmail.com",
+    "contactHint": "¡Nos encantaría saber de ti! No dudes en contactarnos con cualquier pregunta o comentario."
+  }
+}

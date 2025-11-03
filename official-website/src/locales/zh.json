@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于"
+  },
+  "home": {
+    "title": "首页",
+    "intro": "欢迎使用官方站点（Vue + TS + vue-router）。"
+  },
+  "about": {
+    "title": "关于",
+    "content": "这是一个最小的关于页面。"
+  },
+  "index": {
+    "title": "Tech4Life-EZ（TLE）",
+    "missionTitle": "宗旨",
+    "mission": "您的生活小助手，让一切更轻松。",
+    "missionPoints": {
+      "simple": {
+        "title": "简单",
+        "desc": "直观的用户界面，无需学习即可上手。简洁的设计专注于核心功能，摒弃不必要的复杂性。"
+      },
+      "convenient": {
+        "title": "便捷",
+        "desc": "快速易用，操作步骤简化。通过流畅的工作流程和即时响应，让您更快完成任务。"
+      },
+      "practical": {
+        "title": "实用",
+        "desc": "为现实场景和日常使用而设计。每个功能都旨在解决您面临的实际问题。"
+      },
+      "secure": {
+        "title": "安全",
+        "desc": "所有数据都保存在您的设备本地。我们绝不上传或收集您的个人信息，确保完全的隐私保护。"
+      },
+      "free": {
+        "title": "免费",
+        "desc": "无订阅费用，无隐藏收费，无高级版本。所有功能完全免费向所有人开放。"
+      },
+      "family": {
+        "title": "家庭",
+        "desc": "为您全家人而设计。安全、适龄的内容，让家庭成员可以放心使用和共同享受。"
+      }
+    },
+    "productTitle": "产品介绍",
+    "productName": "速算工具箱",
+    "productDesc": "用于练习并提升心算速度的工具包。",
+    "contactTitle": "联系",
+    "contactEmail": "qiaozhi943@gmail.com",
+    "contactHint": "我们很乐意听到您的声音！欢迎随时联系我们提出任何问题或反馈。"
+  }
+}

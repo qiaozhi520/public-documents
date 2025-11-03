@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "home": {
+    "title": "Home",
+    "intro": "Welcome to the official website (Vue + TS + vue-router)."
+  },
+  "about": {
+    "title": "About",
+    "content": "This is a minimal About page."
+  },
+  "index": {
+    "title": "Tech4Life-EZ (TLE)",
+    "missionTitle": "Mission",
+    "mission": "Your everyday life assistant, making things easier.",
+    "missionPoints": {
+      "simple": {
+        "title": "Simple",
+        "desc": "Intuitive user interface with minimal learning curve. Clean design that focuses on core functionality without unnecessary complexity."
+      },
+      "convenient": {
+        "title": "Convenient",
+        "desc": "Quick and easy to use with minimal steps. Get things done faster with streamlined workflows and instant results."
+      },
+      "practical": {
+        "title": "Practical",
+        "desc": "Built for real-world scenarios and daily use cases. Every feature is designed to solve actual problems you face."
+      },
+      "secure": {
+        "title": "Secure",
+        "desc": "All data is stored locally on your device. We never upload or collect your personal information, ensuring complete privacy."
+      },
+      "free": {
+        "title": "Free",
+        "desc": "No subscriptions, no hidden fees, no premium tiers. All features are available to everyone at absolutely no cost."
+      },
+      "family": {
+        "title": "Family",
+        "desc": "Designed for everyone in your household. Safe, age-appropriate content that families can trust and enjoy together."
+      }
+    },
+    "productTitle": "Product",
+    "productName": "speed math toolkit",
+    "productDesc": "A toolkit to practice and boost mental arithmetic speed.",
+    "contactTitle": "Contact",
+    "contactEmail": "qiaozhi943@gmail.com",
+    "contactHint": "We'd love to hear from you! Feel free to reach out with any questions or feedback."
+  }
+}
