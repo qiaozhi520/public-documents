@@ -10,9 +10,4 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   }
-  ,
-  build: {
-    // Generate source maps for built files (creates .map files in dist)
-    sourcemap: true
-  }
 })
