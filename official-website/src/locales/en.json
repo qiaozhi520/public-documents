@@ -45,7 +45,17 @@
     "productName": "speed math toolkit",
     "productDesc": "A toolkit to practice and boost mental arithmetic speed.",
     "contactTitle": "Contact",
-    "contactEmail": "qiaozhi943@gmail.com",
     "contactHint": "We'd love to hear from you! Feel free to reach out with any questions or feedback."
+  },
+  "meta": {
+  "index": {
+    "description": "Tech4Life-EZ (TLE) — A lightweight site with a speed math toolkit to practice mental arithmetic and helpful utilities for everyday life."
+  },
+  "home": {
+    "description": "Welcome to Tech4Life-EZ (TLE). Explore our speed math toolkit and learn how to improve your mental arithmetic skills."
+  },
+  "about": {
+    "description": "About Tech4Life-EZ (TLE): mission, background and the team behind the speed math toolkit." 
   }
+}
 }

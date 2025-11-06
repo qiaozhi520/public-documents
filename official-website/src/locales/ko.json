@@ -45,7 +45,18 @@
     "productName": "speed math toolkit",
     "productDesc": "암산 속도를 연습하고 향상시키기 위한 툴킷.",
     "contactTitle": "연락처",
-    "contactEmail": "qiaozhi943@gmail.com",
     "contactHint": "여러분의 의견을 듣고 싶습니다! 언제든지 질문이나 피드백을 보내주세요."
+  }
+,
+  "meta": {
+    "index": {
+      "description": "Tech4Life-EZ (TLE) — 암산 연습을 위한 경량 사이트와 일상 생활에 유용한 도구들을 제공합니다."
+    },
+    "home": {
+      "description": "Tech4Life-EZ (TLE)에 오신 것을 환영합니다. 우리의 속산 도구로 암산 능력을 향상하세요."
+    },
+    "about": {
+      "description": "Tech4Life-EZ (TLE)에 대해: 미션, 배경 및 도구 개발팀 소개."
+    }
   }
 }

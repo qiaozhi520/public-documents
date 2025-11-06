@@ -45,7 +45,18 @@
     "productName": "speed math toolkit",
     "productDesc": "Un kit de herramientas para practicar y mejorar la velocidad del cálculo mental.",
     "contactTitle": "Contacto",
-    "contactEmail": "qiaozhi943@gmail.com",
     "contactHint": "¡Nos encantaría saber de ti! No dudes en contactarnos con cualquier pregunta o comentario."
+  }
+,
+  "meta": {
+    "index": {
+      "description": "Tech4Life-EZ (TLE) — Un sitio ligero con una caja de herramientas para cálculo mental y utilidades prácticas para la vida diaria."
+    },
+    "home": {
+      "description": "Bienvenido a Tech4Life-EZ (TLE). Explora nuestro kit de herramientas para mejorar la velocidad del cálculo mental."
+    },
+    "about": {
+      "description": "Acerca de Tech4Life-EZ (TLE): misión, antecedentes y el equipo detrás del toolkit de cálculo rápido."
+    }
   }
 }

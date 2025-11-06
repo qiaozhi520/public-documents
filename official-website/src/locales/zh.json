@@ -45,7 +45,18 @@
     "productName": "速算工具箱",
     "productDesc": "用于练习并提升心算速度的工具包。",
     "contactTitle": "联系",
-    "contactEmail": "qiaozhi943@gmail.com",
     "contactHint": "我们很乐意听到您的声音！欢迎随时联系我们提出任何问题或反馈。"
+  }
+,
+  "meta": {
+    "index": {
+      "description": "Tech4Life-EZ（TLE）— 速算工具箱与实用生活小助手，提供心算训练与便捷工具，帮助您提升计算速度与效率。"
+    },
+    "home": {
+      "description": "欢迎来到 Tech4Life-EZ（TLE）。浏览我们的速算工具箱，学习如何提升暗算能力。"
+    },
+    "about": {
+      "description": "关于 Tech4Life-EZ（TLE）：我们的宗旨、背景以及速算工具箱背后的团队。"
+    }
   }
 }

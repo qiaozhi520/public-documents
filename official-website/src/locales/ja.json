@@ -45,7 +45,18 @@
     "productName": "speed math toolkit",
     "productDesc": "暗算速度を練習し、向上させるためのツールキット。",
     "contactTitle": "お問い合わせ",
-    "contactEmail": "qiaozhi943@gmail.com",
     "contactHint": "お気軽にお問い合わせください！ご質問やフィードバックをお待ちしております。"
+  }
+,
+  "meta": {
+    "index": {
+      "description": "Tech4Life-EZ (TLE) — 暗算練習のための軽量サイトと、日常で使える便利なツールを提供します。"
+    },
+    "home": {
+      "description": "Tech4Life-EZ (TLE)へようこそ。暗算ツールキットを試して、暗算の速度を向上させましょう。"
+    },
+    "about": {
+      "description": "Tech4Life-EZ (TLE)について：ミッション、背景、およびツールキットの開発チーム。"
+    }
   }
 }

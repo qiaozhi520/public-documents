@@ -45,7 +45,18 @@
     "productName": "speed math toolkit",
     "productDesc": "Ein Toolkit zum Üben und Verbessern der Kopfrechengeschwindigkeit.",
     "contactTitle": "Kontakt",
-    "contactEmail": "qiaozhi943@gmail.com",
     "contactHint": "Wir würden uns freuen, von Ihnen zu hören! Kontaktieren Sie uns gerne bei Fragen oder Feedback."
+  }
+,
+  "meta": {
+    "index": {
+      "description": "Tech4Life-EZ (TLE) — Ein leichtgewichtiges Portal mit einem Speed-Math-Toolkit zum Üben mentaler Arithmetik und nützlichen Alltags-Tools."
+    },
+    "home": {
+      "description": "Willkommen bei Tech4Life-EZ (TLE). Entdecken Sie unser Speed-Math-Toolkit und verbessern Sie Ihre Kopfrechenfähigkeiten."
+    },
+    "about": {
+      "description": "Über Tech4Life-EZ (TLE): Mission, Hintergrund und das Team hinter dem Speed-Math-Toolkit."
+    }
   }
 }
