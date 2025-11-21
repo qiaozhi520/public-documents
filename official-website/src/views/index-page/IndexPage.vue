@@ -42,6 +42,14 @@
           <img class="product-emoji" src="../../assgin/speed-math.png" :alt="$t('index.productName')" />
           {{ $t('index.productName') }}
         </h3>
+        <div class="download-section">
+          <a href="https://play.google.com/store/apps/details?id=com.qiaozhi943.speedmathtoolkit&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="download-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+            </svg>
+            <span>Google Play</span>
+          </a>
+        </div>
         <div class="gallery" role="list" aria-label="product gallery">
           <div v-for="(src, i) in images" :key="i" class="gallery-item">
             <img :src="src" :alt="$t('index.productName') + ' ' + (i+1)" loading="lazy" />
@@ -368,6 +376,47 @@ const getMissionIcon = (key: string) => {
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
+}
+.download-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+.download-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+.download-btn:hover::before {
+  left: 100%;
+}
+.download-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+}
+.download-btn svg {
+  flex-shrink: 0;
 }
 .gallery {
   display: flex;
